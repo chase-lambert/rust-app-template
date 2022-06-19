@@ -1,0 +1,4 @@
+node_modules/
+target/
+static/main.css
+.env
