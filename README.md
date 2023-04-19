@@ -1,6 +1,6 @@
 Fullstack Rust app that uses axum on the backend and askama templates, htmx, and tailwind on the frontend.
 
-For `dev`, run `npm install`, and then you can run use `npm run dev` to run `cargo watch` and `tailwind watch mode`. 
+For `dev`, run `npm install`, and then you can use `npm run dev` to run `cargo watch` and `tailwind watch mode`. 
 
 For release, run `./build.sh` or if you would like to do it manually, run `npm install`, `npm run release`, `cargo build --release`.  
 
