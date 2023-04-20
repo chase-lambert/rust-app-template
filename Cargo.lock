@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "app-template"
+name = "app_template"
 version = "0.1.0"
 dependencies = [
  "askama",
