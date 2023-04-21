@@ -24,7 +24,9 @@ async fn main() {
 
     let app = Router::new().route("/", get(index)).nest_service(
         "/static",
-        ServeDir::new("static").not_found_service(ServeFile::new("templates/index.html")),
+        ServeDir::new("static")
+            .precompressed_gzip()
+            .not_found_service(ServeFile::new("templates/index.html")),
     );
 
     tracing::debug!("listening on {addr}");

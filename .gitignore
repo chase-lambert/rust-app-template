@@ -1,4 +1,5 @@
 node_modules/
 target/
 static/main.css
+static/main.css.gz
 .env
